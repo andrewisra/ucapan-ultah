@@ -112,8 +112,8 @@ window.onload = function() {
         finalDiv.className = "message";
         finalDiv.style.fontSize = "2.1em";
         finalDiv.style.fontWeight = "bold";
-        finalDiv.style.color = "#FFD700";
-        finalDiv.style.textShadow = "0 0 20px #FFD700aa";
+        finalDiv.style.color = "#ffffffff";
+        finalDiv.style.textShadow = "0 0 20px #eeeeeeaa";
         container.appendChild(finalDiv);
 
         typeWriter(finalDiv, "Dari lelaki paling tampan di ITB, Andrew 😎", 70, () => {
