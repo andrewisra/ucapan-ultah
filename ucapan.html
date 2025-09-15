@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/gift.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ucapan untuk Ninis</title>
+  <style>
+    body {
+      margin: 0;
+      background: #000;
+      color: white;
+      font-family: "Poppins", sans-serif;
+      overflow: hidden;
+    }
+    .night {
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(circle at center, #111 0%, #000 100%);
+      z-index: -2;
+    }
+    .title {
+      text-align: center;
+      margin-top: 1em;
+      font-size: 2.5em;
+      color: #FFD700;
+      text-shadow: 0 0 15px #FFD700aa;
+    }
+    .ucapan-box {
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 0.5em 2.4em;
+      border-radius: 1em;
+      box-shadow: 0 0 25px #fff2;
+      max-width: 600px;
+      min-height: 250px;
+      text-align: center;
+      margin: auto;
+    }
+    .message {
+      font-size: 1.3em;
+      margin: 0.8em 0;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="night"></div>
+  <h1 class="title">Ucapan untuk Ninis</h1>
+  <div style="position: absolute; top: 18vh; width: 100%; display: flex; justify-content: center;">
+    <div class="ucapan-box">
+      <!-- Pesan akan diisi oleh ucapan.js -->
+    </div>
+  </div>
+  <script src="js/ucapan.js"></script>
+</body>
+</html>
